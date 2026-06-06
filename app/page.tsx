@@ -47,9 +47,9 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4 w-full sm:w-auto">
               <a
-                href="/tu-cv.pdf"
+                href="/CV_Thabata_Monteiro.pdf"
                 download
-                className="px-6 py-3 bg-zinc-950 border border-zinc-800 text-zinc-300 text-sm font-bold rounded-xl hover:bg-zinc-900 hover:border-zinc-700 transition-all duration-300 flex items-center justify-center gap-2"
+                  className="flex items-center gap-2 bg-zinc-950 hover:bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white font-bold text-sm px-5 py-3 rounded-xl transition-all duration-300 shadow-sm"
               >
                 <span>Descargar CV</span>
                 <svg
@@ -66,6 +66,14 @@ export default function Home() {
                     d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                   />
                 </svg>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1fnzgkfA1d0c3sNbMm9PB1mNvwc7_3nty/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-zinc-950 hover:bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white font-bold text-sm px-5 py-3 rounded-xl transition-all duration-300 shadow-sm"
+              >
+                <span>View CV</span>
               </a>
             </div>
           </div>
