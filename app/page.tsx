@@ -47,7 +47,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4 w-full sm:w-auto">
               <a
-                href="/CV_Thabata_Monteiro.pdf"
+                href="CV_Thabata_Denise.pdf"
                 download
                   className="flex items-center gap-2 bg-zinc-950 hover:bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white font-bold text-sm px-5 py-3 rounded-xl transition-all duration-300 shadow-sm"
               >
